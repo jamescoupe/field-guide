@@ -8,6 +8,5 @@ The goal: train a model that can take text from
 
 and generate a "field guide" entry similar to those found in the 1898 book by W.T. Greene, "Birds of the British Empire".
 
-![Image of pigeons]
-(https://github.com/jamescoupe/field-guide/blob/main/pigeons_illustration.jpg?raw=true)
+![Image of pigeons](https://github.com/jamescoupe/field-guide/blob/main/pigeons_illustration.jpg?raw=true)
 
