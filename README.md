@@ -1,7 +1,7 @@
 # field-guide
 Part 3 of BotBE
 
-The goal: train a model that can take text from 
+The goal: train a model (GPT2?) that can take text from 
 1. the archive
 2. a physical description of the bird
 3. other relevant text
