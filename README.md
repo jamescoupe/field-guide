@@ -15,9 +15,9 @@ It outputs PNG files, consisting of "field guide" entries similar to those found
 <img src="https://github.com/jamescoupe/field-guide/blob/main/pigeons_illustration.jpg?raw=true" width=300>
 
 **Sample Results from code:**
-
-![Page1](https://github.com/jamescoupe/field-guide/blob/main/sample/page0b.png?raw=true)
-![Page2](https://github.com/jamescoupe/field-guide/blob/main/sample/page1b.png?raw=true)
-![Page3](https://github.com/jamescoupe/field-guide/blob/main/sample/page2b.png?raw=true)
-![Page4](https://github.com/jamescoupe/field-guide/blob/main/sample/page3b.png?raw=true)
+<p>
+<img src="https://github.com/jamescoupe/field-guide/blob/main/sample/page0b.png?raw=true" width=300>
+<img src="https://github.com/jamescoupe/field-guide/blob/main/sample/page1b.png?raw=true" width=300>
+<img src="https://github.com/jamescoupe/field-guide/blob/main/sample/page2b.png?raw=true" width=300>
+<img src="https://github.com/jamescoupe/field-guide/blob/main/sample/page3b.png?raw=true" width=300>
 
