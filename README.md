@@ -13,9 +13,9 @@ This code uses inputs from
 It outputs PNG files, consisting of "field guide" entries similar to those found in the 1898 book by W.T. Greene, "Birds of the British Empire".
 
 **Code Usage**
-Update the paths at the top
-Install the font
-There are 4 page types to choose from (title, large image in center, small image embedded left, small image embedded right)
+- Update the paths at the top
+- Install the font
+- There are 4 page types to choose from (title, large image in center, small image embedded left, small image embedded right)
 
 **To Do**
 1. Refine GPT2 Model
