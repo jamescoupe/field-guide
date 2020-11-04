@@ -11,7 +11,7 @@ This code uses inputs from
 It outputs PNG files, consisting of "field guide" entries similar to those found in the 1898 book by W.T. Greene, "Birds of the British Empire".
 
 **Example image from 1898 book***
-![Image of pigeons](https://github.com/jamescoupe/field-guide/blob/main/pigeons_illustration.jpg?raw=true)
+![Image of pigeons](https://github.com/jamescoupe/field-guide/blob/main/pigeons_illustration.jpg?raw=true | width = 300)
 
 **Sample Results from code:**
 
