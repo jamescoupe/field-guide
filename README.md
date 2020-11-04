@@ -12,6 +12,11 @@ This code uses inputs from
 
 It outputs PNG files, consisting of "field guide" entries similar to those found in the 1898 book by W.T. Greene, "Birds of the British Empire".
 
+**To Do**
+1. Refine GPT2 Model
+2. Improve Photo2Illustration
+3. Clean up code
+
 **Example image from 1898 book**
 <p>
 <img src="https://github.com/jamescoupe/field-guide/blob/main/pigeons_illustration.jpg?raw=true" width=300>
