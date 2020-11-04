@@ -10,7 +10,7 @@ and generate a "field guide" entry similar to those found in the 1898 book by W.
 
 ![Image of pigeons](https://github.com/jamescoupe/field-guide/blob/main/pigeons_illustration.jpg?raw=true)
 
-Sample Results:
+**Sample Results:**
 
 ![Page1](https://github.com/jamescoupe/field-guide/blob/main/sample/page0b.png?raw=true)
 ![Page2](https://github.com/jamescoupe/field-guide/blob/main/sample/page1b.png?raw=true)
