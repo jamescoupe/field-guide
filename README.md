@@ -21,6 +21,8 @@ It outputs PNG files, consisting of "field guide" entries similar to those found
 1. Refine GPT2 Model
 2. Improve Photo2Illustration
 3. Clean up code
+4. Integrate with GPT2 Model/code
+5. Integrate with Photo2Illustration code
 
 **Example image from 1898 book**
 <p>
