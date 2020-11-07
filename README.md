@@ -13,15 +13,12 @@ This code uses inputs from
 It outputs PNG files, consisting of "field guide" entries similar to those found in the 1898 book by W.T. Greene, "Birds of the British Empire".
 
 **Code Usage**
-- Update the paths at the top
-- Install the font
-- There are 4 page types to choose from (title, large image in center, small image embedded left, small image embedded right)
+python3 fg_generator_github.py
 
 **To Do**
 1. Refine GPT2 Model
 2. Clean up code
-3. Integrate with GPT2 Model/code
-4. Integrate with Photo2Illustration code
+3. Integrate with Photo2Illustration code
 
 **Example image from 1898 book**
 <p>
