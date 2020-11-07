@@ -13,7 +13,8 @@ This code uses inputs from
 It outputs PNG files, consisting of "field guide" entries similar to those found in the 1898 book by W.T. Greene, "Birds of the British Empire".
 
 **Code Usage**
-python3 fg_generator_github.py
+- GPT2 checkpoint is [here](https://drive.google.com/drive/folders/1w0jnJZE6-_IvBnr7PMg5HXO__-r0OdSG?usp=sharing)
+- python3 fg_generator_github.py
 
 **To Do**
 1. Refine GPT2 Model
