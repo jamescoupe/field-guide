@@ -1,0 +1,21 @@
+name: Run Field Guide
+
+on: [push]
+
+jobs:
+  generate_images:
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.SECRET_ACCESS_KEY }}
+          aws-region: us-west-2
+
+      - name: Fetch checkpoint
+        run: aws s3 cp --recursive s3://jamescoupe-birds/GPT2/checkpoint/ checkpoint
