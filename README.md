@@ -14,7 +14,8 @@ It outputs PNG files, consisting of "field guide" entries similar to those found
 
 **Code Usage**
 - GPT2 checkpoint is [here](https://drive.google.com/drive/folders/1w0jnJZE6-_IvBnr7PMg5HXO__-r0OdSG?usp=sharing)
-- python3 fg_generator_github.py
+- input is $python3 fg_generator_github.py
+- should create these files: page0.png page1.png page2.png page3.png
 
 **To Do**
 1. Refine GPT2 Model
