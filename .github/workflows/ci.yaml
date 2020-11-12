@@ -17,5 +17,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.SECRET_ACCESS_KEY }}
           aws-region: us-west-2
 
-      - name: Fetch checkpoint
-        run: aws s3 cp --recursive s3://jamescoupe-birds/GPT2/checkpoint/ checkpoint
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
