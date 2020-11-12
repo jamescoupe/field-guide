@@ -33,8 +33,8 @@ It outputs PNG files, consisting of "field guide" entries similar to those found
 <img src="https://github.com/jamescoupe/field-guide/blob/main/sample/page2b.png?raw=true" width=300>
 <img src="https://github.com/jamescoupe/field-guide/blob/main/sample/page3b.png?raw=true" width=300>
 <p>
-<img src="https://github.com/jamescoupe/field-guide/blob/main/sample/page0-aud.png?raw=true" width=300>
-<img src="https://github.com/jamescoupe/field-guide/blob/main/sample/page1-aud.png?raw=true" width=300>
-<img src="https://github.com/jamescoupe/field-guide/blob/main/sample/page2-aud.png?raw=true" width=300>
-<img src="https://github.com/jamescoupe/field-guide/blob/main/sample/page3-aud.png?raw=true" width=300>  
+<img src="https://github.com/jamescoupe/field-guide/blob/main/sample/page0-aud2.png?raw=true" width=300>
+<img src="https://github.com/jamescoupe/field-guide/blob/main/sample/page1-aud2.png?raw=true" width=300>
+<img src="https://github.com/jamescoupe/field-guide/blob/main/sample/page2-aud2.png?raw=true" width=300>
+<img src="https://github.com/jamescoupe/field-guide/blob/main/sample/page3-aud2.png?raw=true" width=300>  
 
