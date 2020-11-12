@@ -77,6 +77,8 @@ def make_title(pg_num, title_para, txt_in, title, family, latin, bird_pic, filen
         txt1 = "BIRDS OF THE BRITISH EMPIRE."
     txt2=str(pg_num)
     reSize_path = filepath+bird_pic.replace(".png", "_resized.png")
+    bw = (w-240)-180
+    img_h = reSize(filepath+bird_pic, reSize_path, bw)
     im1 = Image.open(reSize_path, 'r')
     rgb = (im1.getpixel((1,1)))
     im  =  Image.new ( "RGB", (w,h), rgb )
