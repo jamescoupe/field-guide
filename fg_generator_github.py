@@ -4,7 +4,7 @@ import subprocess, os, shutil, random
 import gpt_2_simple as gpt2
 from datetime import datetime
 import sys, getopt
-filepath = os.getcwd()
+filepath = os.getcwd() + "/"
 fontPath_reg = "OldNewspaperTypes.ttf"
 bird_images = ["b2i_1.png", "b2i_2.png", "b2i_3.png", "b2i_4.png"]
 birds = ["Marx Crescent", "Squawking Engels", "Factory Girl"]

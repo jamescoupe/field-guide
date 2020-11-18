@@ -21,3 +21,15 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.7
+
+      - name: Install dependencies
+        run: pip install pillow gpt-2-simple tensorflow==1.15
+
+      - name: Get checkpoint
+        run: aws s3 cp --recursive s3://jamescoupe-birds/GPT2/checkpoint/ checkpoint
+
+      - name: Let it rip
+        run: python3 fg_generator_github.py
+
+      - name: Upload results
+        run: aws s3 cp page*.png s3://jamescoupe-birds/output/
