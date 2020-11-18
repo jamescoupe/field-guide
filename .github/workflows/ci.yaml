@@ -26,10 +26,13 @@ jobs:
         run: pip install pillow gpt-2-simple tensorflow==1.15
 
       - name: Get checkpoint
-        run: aws s3 cp --recursive s3://jamescoupe-birds/GPT2/checkpoint/ checkpoint
+        run: aws s3 cp --quiet --recursive s3://jamescoupe-birds/GPT2/checkpoint/ checkpoint
 
       - name: Let it rip
         run: python3 fg_generator_github.py
 
+      - name: Gather output
+        run: mkdir output && ls -1 page*.png | xargs -L1 -I{} mv {} output/
+
       - name: Upload results
-        run: aws s3 cp page*.png s3://jamescoupe-birds/output/
+        run: aws s3 cp --recursive output/ s3://jamescoupe-birds/output/
